@@ -29,4 +29,15 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "image_url"
   end
 
+  create_table "haunted_houses", force: :cascade do |t|
+    t.string "name"
+    t.string "location"
+    t.string "theme"
+    t.integer "price"
+    t.boolean "family_friend"
+    t.datetime "opening_time"
+    t.datetime "closing_time"
+    t.string "long_description"
+  end
+
 end
