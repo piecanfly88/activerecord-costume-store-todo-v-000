@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "location"
     t.string "theme"
     t.integer "price"
-    t.string "family_friendly"
+    t.integer "family_friendly"
     t.string "opening_date"
     t.string "closing_date"
     t.string "description"
